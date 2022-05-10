@@ -1,0 +1,73 @@
+{
+	"description": "Suscripcion QuantumLeap Rm",
+	"subject": {
+		"entities": [
+		  {
+			"idPattern": ".*",
+			"type": "Rm"
+		  }
+		],
+		"condition": {
+		  "attrs": [
+			"cschenum_cseqnum"
+		  ]
+		}
+	},
+	"notification": {
+		"attrs": [
+			"cschenum_cseqnum",
+			"fsmofs_wfd",
+			"rmxwide",
+			"fsusgt",
+			"cchcom_1",
+			"cchcom_2",
+			"cchcom_3",
+			"cchcom_4",
+			"cchcom_5",
+			"cchcom_6",
+			"cchcom_7",
+			"cchcom_8",
+			"cchcom_9",
+			"cchcom_10",
+			"cchcom_11",
+			"cchcom_12",
+			"cchcom_13",
+			"cchcom_14",
+			"cchcom_15",
+			"cchcom_16",
+			"cchcom_17",
+			"cchcom_18",
+			"cchcom_19",
+			"cchcom_20",
+			"cchcom_22",
+			"cchcom_24",
+			"cchcom_25",
+			"medtmprm",
+			"pesobob",
+			"medtmpbo",
+			"medtmpf6",
+			"medtmptij",
+			"medtmpvs",
+			"tmfb",
+			"tfemt",
+			"tfent",
+			"tfenta",
+			"tfexds",
+			"tfexpr",
+			"texitf",
+			"timhea",
+			"texiti",
+			"tcdes",
+			"sumarxpytab",
+			"pfbfrc",
+			"pfbtmp"
+		],
+		"http": {
+			"url": "http://quantumleap:8668/v2/notify"
+		}, 
+		"metadata": [ 
+			"dateCreated", 
+			"dateModified" 
+		] 
+	}
+}

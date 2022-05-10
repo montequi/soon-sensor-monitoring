@@ -1,0 +1,47 @@
+{
+	"description": "Suscripcion QuantumLeap Lbo",
+	"subject": {
+		"entities": [
+		  {
+			"idPattern": ".*",
+			"type": "Lbo"
+		  }
+		],
+		"condition": {
+		  "attrs": [
+			"cschenum_cseqnum"
+		  ]
+		}
+	},
+	"notification": {
+		"attrs": [
+			"cschenum_cseqnum",
+			"dspyfx_1",
+			"dspyfx_2",
+			"dspyfx_3",
+			"dspyfx_4",
+			"dspyfx_5",
+			"dspyfx_6",
+			"dspyfx_7",
+			"dspyfx_8",
+			"dspyfx_9",
+			"dspyfx_10",
+			"dspyfx_11",
+			"dspyfx_12",
+			"dspyfx_13",
+			"dspyfx_14",
+			"dspyfx_15",
+			"dspyfx_16",
+			"dspyfx_17",
+			"dspyfx_18",
+			"lbowide"
+		],
+		"http": {
+			"url": "http://quantumleap:8668/v2/notify"
+		}, 
+		"metadata": [ 
+			"dateCreated", 
+			"dateModified" 
+		] 
+	}
+}

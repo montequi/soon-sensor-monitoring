@@ -1,0 +1,293 @@
+{
+	"info": {
+		"_postman_id": "20a1478a-0b47-4aab-a102-47e6e4fd0322",
+		"name": "FiwareSOON Examples Request",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Update entity attributes",
+			"item": [
+				{
+					"name": "Update ModelRM",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cschenum_cseqnum\": {\r\n        \"type\": \"Integer\",\r\n        \"value\": \"2\"\r\n    },\r\n\t\"rm2fm\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1272.776687\"\r\n    },\r\n\t\"fmxwide\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1272.5\"\r\n    }\r\n}"
+						},
+						"url": {
+							"raw": "http://X.X.X.X:1026/v2/entities/urn:ngsi-ld:ModeloRM:001/attrs",
+							"protocol": "http",
+							"host": [
+								"X",
+								"X",
+								"X",
+								"X"
+							],
+							"port": "1026",
+							"path": [
+								"v2",
+								"entities",
+								"urn:ngsi-ld:ModeloRM:001",
+								"attrs"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update RM",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cschenum_cseqnum\": {\r\n        \"type\": \"Integer\",\r\n        \"value\": \"2\"\r\n    },\r\n\t\"fsmofs_wfd\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"-3.1\"\r\n    },\r\n\t\"rmxwide\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1280.3\"\r\n    },\r\n\t\"fsusgt\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"29\"\r\n    },\r\n\t\"cchcom_1\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"300\"\r\n    },\r\n\t\"cchcom_2\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"2300\"\r\n    },\r\n\t\"cchcom_3\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"73\"\r\n    },\r\n\t\"cchcom_4\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"120\"\r\n    },\r\n\t\"cchcom_5\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"120\"\r\n    },\r\n\t\"cchcom_6\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"390\"\r\n    },\r\n\t\"cchcom_7\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"370\"\r\n    },\r\n\t\"cchcom_8\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"130\"\r\n    },\r\n\t\"cchcom_9\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"143\"\r\n    },\r\n\t\"cchcom_10\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"240\"\r\n    },\r\n\t\"cchcom_11\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"4\"\r\n    },\r\n\t\"cchcom_12\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"16\"\r\n    },\r\n\t\"cchcom_13\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"8\"\r\n    },\r\n\t\"cchcom_14\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"6\"\r\n    },\r\n\t\"cchcom_15\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"15\"\r\n    },\r\n\t\"cchcom_16\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"25\"\r\n    },\r\n\t\"cchcom_17\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"20\"\r\n    },\r\n\t\"cchcom_18\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"67\"\r\n    },\r\n\t\"cchcom_19\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1\"\r\n    },\r\n\t\"cchcom_20\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1\"\r\n    },\r\n\t\"cchcom_22\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"29\"\r\n    },\r\n\t\"cchcom_24\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"0\"\r\n    },\r\n\t\"cchcom_25\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"0\"\r\n    },\r\n\t\"medtmprm\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1156.5\"\r\n    },\r\n\t\"pesobob\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"17596.9\"\r\n    },\r\n\t\"medtmpbo\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"644.3\"\r\n    },\r\n\t\"medtmpf6\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"870.4\"\r\n    },\r\n\t\"medtmptij\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1155.9\"\r\n    },\r\n\t\"medtmpvs\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1173.5\"\r\n    },\r\n\t\"tmfb\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"871.9\"\r\n    },\r\n\t\"tfemt\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1156.5\"\r\n    },\r\n\t\"tfent\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1177.3\"\r\n    },\r\n\t\"tfenta\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1180.5\"\r\n    },\r\n\t\"tfexds\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"890\"\r\n    },\r\n\t\"tfexpr\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"879.2\"\r\n    },\r\n\t\"texitf\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"893.7\"\r\n    },\r\n\t\"timhea\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"2520\"\r\n    },\r\n\t\"texiti\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"873.2\"\r\n    },\r\n\t\"tcdes\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"650\"\r\n    },\r\n\t\"sumarxpytab\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1152.5\"\r\n    },\r\n\t\"pfbfrc\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"8487.7\"\r\n    },\r\n\t\"pfbtmp\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1217.42\"\r\n    }\r\n}"
+						},
+						"url": {
+							"raw": "http://X.X.X.X:1026/v2/entities/urn:ngsi-ld:Rm:001/attrs",
+							"protocol": "http",
+							"host": [
+								"X",
+								"X",
+								"X",
+								"X"
+							],
+							"port": "1026",
+							"path": [
+								"v2",
+								"entities",
+								"urn:ngsi-ld:Rm:001",
+								"attrs"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update LBO",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cschenum_cseqnum\": {\r\n        \"type\": \"Integer\",\r\n        \"value\": \"2\"\r\n    },\r\n\t\"dspyfx_1\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"289.2\"\r\n    },\r\n\t\"dspyfx_2\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"266\"\r\n    },\r\n\t\"dspyfx_3\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"135.6\"\r\n    },\r\n\t\"dspyfx_4\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"133.2\"\r\n    },\r\n\t\"dspyfx_5\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"135.6\"\r\n    },\r\n\t\"dspyfx_6\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"133.2\"\r\n    },\r\n\t\"dspyfx_7\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"76.5\"\r\n    },\r\n\t\"dspyfx_8\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"75.3\"\r\n    },\r\n\t\"dspyfx_9\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"76.5\"\r\n    },\r\n\t\"dspyfx_10\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"75.3\"\r\n    },\r\n\t\"dspyfx_11\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"46.4\"\r\n    },\r\n\t\"dspyfx_12\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"45.7\"\r\n    },\r\n\t\"dspyfx_13\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"46.4\"\r\n    },\r\n\t\"dspyfx_14\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"45.7\"\r\n    },\r\n\t\"dspyfx_15\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"20.2\"\r\n    },\r\n\t\"dspyfx_16\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"20.2\"\r\n    },\r\n\t\"dspyfx_17\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"12.7\"\r\n    },\r\n\t\"dspyfx_18\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"12.7\"\r\n    },\r\n\t\"lbowide\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1270.7\"\r\n    }\r\n}"
+						},
+						"url": {
+							"raw": "http://X.X.X.X:1026/v2/entities/urn:ngsi-ld:Lbo:001/attrs",
+							"protocol": "http",
+							"host": [
+								"X",
+								"X",
+								"X",
+								"X"
+							],
+							"port": "1026",
+							"path": [
+								"v2",
+								"entities",
+								"urn:ngsi-ld:Lbo:001",
+								"attrs"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update ModelLBO",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cschenum_cseqnum\": {\r\n        \"type\": \"Integer\",\r\n        \"value\": \"2\"\r\n    },\r\n\t\"lbo2fm\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1273.527153\"\r\n    },\r\n\t\"fmxwide\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1272.5\"\r\n    }\r\n}"
+						},
+						"url": {
+							"raw": "http://X.X.X.X:1026/v2/entities/urn:ngsi-ld:ModeloLBO:001/attrs",
+							"protocol": "http",
+							"host": [
+								"X",
+								"X",
+								"X",
+								"X"
+							],
+							"port": "1026",
+							"path": [
+								"v2",
+								"entities",
+								"urn:ngsi-ld:ModeloLBO:001",
+								"attrs"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Check IoT Agent",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://X.X.X.X:4041/iot/about",
+					"protocol": "http",
+					"host": [
+						"X",
+						"X",
+						"X",
+						"X"
+					],
+					"port": "4041",
+					"path": [
+						"iot",
+						"about"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Entity",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"urn:ngsi-ld:Rm:001\",\r\n    \"type\": \"Rm\",\r\n    \"cschenum_cseqnum\": {\r\n        \"type\": \"Integer\",\r\n        \"value\": \"1\"\r\n    },\r\n\t\"fsmofs_wfd\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"-3.1\"\r\n    },\r\n\t\"rmxwide\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1280.3\"\r\n    },\r\n\t\"fsusgt\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"29\"\r\n    },\r\n\t\"cchcom_1\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"300\"\r\n    },\r\n\t\"cchcom_2\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"2300\"\r\n    },\r\n\t\"cchcom_3\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"73\"\r\n    },\r\n\t\"cchcom_4\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"120\"\r\n    },\r\n\t\"cchcom_5\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"120\"\r\n    },\r\n\t\"cchcom_6\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"390\"\r\n    },\r\n\t\"cchcom_7\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"370\"\r\n    },\r\n\t\"cchcom_8\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"130\"\r\n    },\r\n\t\"cchcom_9\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"143\"\r\n    },\r\n\t\"cchcom_10\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"240\"\r\n    },\r\n\t\"cchcom_11\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"4\"\r\n    },\r\n\t\"cchcom_12\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"16\"\r\n    },\r\n\t\"cchcom_13\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"8\"\r\n    },\r\n\t\"cchcom_14\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"6\"\r\n    },\r\n\t\"cchcom_15\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"15\"\r\n    },\r\n\t\"cchcom_16\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"25\"\r\n    },\r\n\t\"cchcom_17\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"20\"\r\n    },\r\n\t\"cchcom_18\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"67\"\r\n    },\r\n\t\"cchcom_19\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1\"\r\n    },\r\n\t\"cchcom_20\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1\"\r\n    },\r\n\t\"cchcom_22\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"29\"\r\n    },\r\n\t\"cchcom_24\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"0\"\r\n    },\r\n\t\"cchcom_25\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"0\"\r\n    },\r\n\t\"medtmprm\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1156.5\"\r\n    },\r\n\t\"pesobob\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"17596.9\"\r\n    },\r\n\t\"medtmpbo\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"644.3\"\r\n    },\r\n\t\"medtmpf6\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"870.4\"\r\n    },\r\n\t\"medtmptij\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1155.9\"\r\n    },\r\n\t\"medtmpvs\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1173.5\"\r\n    },\r\n\t\"tmfb\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"871.9\"\r\n    },\r\n\t\"tfemt\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1156.5\"\r\n    },\r\n\t\"tfent\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1177.3\"\r\n    },\r\n\t\"tfenta\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1180.5\"\r\n    },\r\n\t\"tfexds\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"890\"\r\n    },\r\n\t\"tfexpr\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"879.2\"\r\n    },\r\n\t\"texitf\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"893.7\"\r\n    },\r\n\t\"timhea\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"2520\"\r\n    },\r\n\t\"texiti\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"873.2\"\r\n    },\r\n\t\"tcdes\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"650\"\r\n    },\r\n\t\"sumarxpytab\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1152.5\"\r\n    },\r\n\t\"pfbfrc\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"8487.7\"\r\n    },\r\n\t\"pfbtmp\": {\r\n        \"type\": \"Float\",\r\n        \"value\": \"1217.42\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://X.X.X.X:1026/v2/entities",
+					"protocol": "http",
+					"host": [
+						"X",
+						"X",
+						"X",
+						"X"
+					],
+					"port": "1026",
+					"path": [
+						"v2",
+						"entities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read all entities",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://X.X.X.X:1026/v2/entities",
+					"protocol": "http",
+					"host": [
+						"X",
+						"X",
+						"X",
+						"X"
+					],
+					"port": "1026",
+					"path": [
+						"v2",
+						"entities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create subscription",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"description\": \"Suscripcion QuantumLeap ModeloLBO\",\r\n\t\"subject\": {\r\n\t\t\"entities\": [\r\n\t\t  {\r\n\t\t\t\"idPattern\": \".*\",\r\n\t\t\t\"type\": \"ModeloLBO\"\r\n\t\t  }\r\n\t\t],\r\n\t\t\"condition\": {\r\n\t\t  \"attrs\": [\r\n\t\t\t\"cschenum_cseqnum\"\r\n\t\t  ]\r\n\t\t}\r\n\t},\r\n\t\"notification\": {\r\n\t\t\"attrs\": [\r\n\t\t\t\"cschenum_cseqnum\",\r\n\t\t\t\"lbo2fm\",\r\n\t\t\t\"fmxwide\"\r\n\t\t],\r\n\t\t\"http\": {\r\n\t\t\t\"url\": \"http://quantumleap:8668/v2/notify\"\r\n\t\t}, \r\n\t\t\"metadata\": [ \r\n\t\t\t\"dateCreated\", \r\n\t\t\t\"dateModified\" \r\n\t\t] \r\n\t}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://X.X.X.X:1026/v2/subscriptions",
+					"protocol": "http",
+					"host": [
+						"X",
+						"X",
+						"X",
+						"X"
+					],
+					"port": "1026",
+					"path": [
+						"v2",
+						"subscriptions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read all subscriptions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://X.X.X.X:1026/v2/subscriptions",
+					"protocol": "http",
+					"host": [
+						"X",
+						"X",
+						"X",
+						"X"
+					],
+					"port": "1026",
+					"path": [
+						"v2",
+						"subscriptions"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

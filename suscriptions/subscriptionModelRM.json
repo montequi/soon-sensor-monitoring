@@ -1,0 +1,30 @@
+{
+	"description": "Suscripcion QuantumLeap ModeloRM",
+	"subject": {
+		"entities": [
+		  {
+			"idPattern": ".*",
+			"type": "ModeloRM"
+		  }
+		],
+		"condition": {
+		  "attrs": [
+			"cschenum_cseqnum"
+		  ]
+		}
+	},
+	"notification": {
+		"attrs": [
+			"cschenum_cseqnum",
+			"rm2fm",
+			"fmxwide"
+		],
+		"http": {
+			"url": "http://quantumleap:8668/v2/notify"
+		}, 
+		"metadata": [ 
+			"dateCreated", 
+			"dateModified" 
+		] 
+	}
+}
