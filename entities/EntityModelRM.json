@@ -1,0 +1,16 @@
+{
+    "id": "urn:ngsi-ld:ModeloRM:001",
+    "type": "ModeloRM",
+    "cschenum_cseqnum": {
+        "type": "Integer",
+        "value": "1"
+    },
+	"rm2fm": {
+        "type": "Float",
+        "value": "1272.776687"
+    },
+	"fmxwide": {
+        "type": "Float",
+        "value": "1272.5"
+    }
+}

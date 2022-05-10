@@ -1,0 +1,84 @@
+{
+    "id": "urn:ngsi-ld:Lbo:001",
+    "type": "Lbo",
+    "cschenum_cseqnum": {
+        "type": "Integer",
+        "value": "1"
+    },
+	"dspyfx_1": {
+        "type": "Float",
+        "value": "289.2"
+    },
+	"dspyfx_2": {
+        "type": "Float",
+        "value": "266"
+    },
+	"dspyfx_3": {
+        "type": "Float",
+        "value": "135.6"
+    },
+	"dspyfx_4": {
+        "type": "Float",
+        "value": "133.2"
+    },
+	"dspyfx_5": {
+        "type": "Float",
+        "value": "135.6"
+    },
+	"dspyfx_6": {
+        "type": "Float",
+        "value": "133.2"
+    },
+	"dspyfx_7": {
+        "type": "Float",
+        "value": "76.5"
+    },
+	"dspyfx_8": {
+        "type": "Float",
+        "value": "75.3"
+    },
+	"dspyfx_9": {
+        "type": "Float",
+        "value": "76.5"
+    },
+	"dspyfx_10": {
+        "type": "Float",
+        "value": "75.3"
+    },
+	"dspyfx_11": {
+        "type": "Float",
+        "value": "46.4"
+    },
+	"dspyfx_12": {
+        "type": "Float",
+        "value": "45.7"
+    },
+	"dspyfx_13": {
+        "type": "Float",
+        "value": "46.4"
+    },
+	"dspyfx_14": {
+        "type": "Float",
+        "value": "45.7"
+    },
+	"dspyfx_15": {
+        "type": "Float",
+        "value": "20.2"
+    },
+	"dspyfx_16": {
+        "type": "Float",
+        "value": "20.2"
+    },
+	"dspyfx_17": {
+        "type": "Float",
+        "value": "12.7"
+    },
+	"dspyfx_18": {
+        "type": "Float",
+        "value": "12.7"
+    },
+	"lbowide": {
+        "type": "Float",
+        "value": "1270.7"
+    }
+}

@@ -1,0 +1,188 @@
+{
+    "id": "urn:ngsi-ld:Rm:001",
+    "type": "Rm",
+    "cschenum_cseqnum": {
+        "type": "Integer",
+        "value": "1"
+    },
+	"fsmofs_wfd": {
+        "type": "Float",
+        "value": "-3.1"
+    },
+	"rmxwide": {
+        "type": "Float",
+        "value": "1280.3"
+    },
+	"fsusgt": {
+        "type": "Float",
+        "value": "29"
+    },
+	"cchcom_1": {
+        "type": "Float",
+        "value": "300"
+    },
+	"cchcom_2": {
+        "type": "Float",
+        "value": "2300"
+    },
+	"cchcom_3": {
+        "type": "Float",
+        "value": "73"
+    },
+	"cchcom_4": {
+        "type": "Float",
+        "value": "120"
+    },
+	"cchcom_5": {
+        "type": "Float",
+        "value": "120"
+    },
+	"cchcom_6": {
+        "type": "Float",
+        "value": "390"
+    },
+	"cchcom_7": {
+        "type": "Float",
+        "value": "370"
+    },
+	"cchcom_8": {
+        "type": "Float",
+        "value": "130"
+    },
+	"cchcom_9": {
+        "type": "Float",
+        "value": "143"
+    },
+	"cchcom_10": {
+        "type": "Float",
+        "value": "240"
+    },
+	"cchcom_11": {
+        "type": "Float",
+        "value": "4"
+    },
+	"cchcom_12": {
+        "type": "Float",
+        "value": "16"
+    },
+	"cchcom_13": {
+        "type": "Float",
+        "value": "8"
+    },
+	"cchcom_14": {
+        "type": "Float",
+        "value": "6"
+    },
+	"cchcom_15": {
+        "type": "Float",
+        "value": "15"
+    },
+	"cchcom_16": {
+        "type": "Float",
+        "value": "25"
+    },
+	"cchcom_17": {
+        "type": "Float",
+        "value": "20"
+    },
+	"cchcom_18": {
+        "type": "Float",
+        "value": "67"
+    },
+	"cchcom_19": {
+        "type": "Float",
+        "value": "1"
+    },
+	"cchcom_20": {
+        "type": "Float",
+        "value": "1"
+    },
+	"cchcom_22": {
+        "type": "Float",
+        "value": "29"
+    },
+	"cchcom_24": {
+        "type": "Float",
+        "value": "0"
+    },
+	"cchcom_25": {
+        "type": "Float",
+        "value": "0"
+    },
+	"medtmprm": {
+        "type": "Float",
+        "value": "1156.5"
+    },
+	"pesobob": {
+        "type": "Float",
+        "value": "17596.9"
+    },
+	"medtmpbo": {
+        "type": "Float",
+        "value": "644.3"
+    },
+	"medtmpf6": {
+        "type": "Float",
+        "value": "870.4"
+    },
+	"medtmptij": {
+        "type": "Float",
+        "value": "1155.9"
+    },
+	"medtmpvs": {
+        "type": "Float",
+        "value": "1173.5"
+    },
+	"tmfb": {
+        "type": "Float",
+        "value": "871.9"
+    },
+	"tfemt": {
+        "type": "Float",
+        "value": "1156.5"
+    },
+	"tfent": {
+        "type": "Float",
+        "value": "1177.3"
+    },
+	"tfenta": {
+        "type": "Float",
+        "value": "1180.5"
+    },
+	"tfexds": {
+        "type": "Float",
+        "value": "890"
+    },
+	"tfexpr": {
+        "type": "Float",
+        "value": "879.2"
+    },
+	"texitf": {
+        "type": "Float",
+        "value": "893.7"
+    },
+	"timhea": {
+        "type": "Float",
+        "value": "2520"
+    },
+	"texiti": {
+        "type": "Float",
+        "value": "873.2"
+    },
+	"tcdes": {
+        "type": "Float",
+        "value": "650"
+    },
+	"sumarxpytab": {
+        "type": "Float",
+        "value": "1152.5"
+    },
+	"pfbfrc": {
+        "type": "Float",
+        "value": "8487.7"
+    },
+	"pfbtmp": {
+        "type": "Float",
+        "value": "1217.42"
+    }
+}

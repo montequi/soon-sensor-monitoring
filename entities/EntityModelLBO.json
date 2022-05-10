@@ -1,0 +1,16 @@
+{
+    "id": "urn:ngsi-ld:ModeloLBO:001",
+    "type": "ModeloLBO",
+    "cschenum_cseqnum": {
+        "type": "Integer",
+        "value": "1"
+    },
+	"lbo2fm": {
+        "type": "Float",
+        "value": "1273.527153"
+    },
+	"fmxwide": {
+        "type": "Float",
+        "value": "1272.5"
+    }
+}
